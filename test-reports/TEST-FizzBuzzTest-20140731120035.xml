@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="FizzBuzzTest-20140731120035" tests="2" time="0.000">
+	<testcase classname="FizzBuzzTest" name="test_number_divisible_by_3_return_fizz" time="0.000"/>
+	<testcase classname="FizzBuzzTest" name="test_number_divisible_by_5_return_buzz" time="0.000">
+		<error message="'FIZZ' != 'BUZZ'" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "fizzbuzz.py", line 14, in test_number_divisible_by_5_return_buzz
+    self.assertEqual(result, "BUZZ")
+AssertionError: 'FIZZ' != 'BUZZ'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
